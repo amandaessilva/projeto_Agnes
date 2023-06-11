@@ -10,7 +10,16 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= yield %>
+ <body>
+   <%= yield %>
+<!-- Imagens dos cantos  -->
+    <img src="/assets/image1.png" alt="Image 1" class="image-corner top-left">
+    <img src="/assets/image2.png" alt="Image 2" class="image-corner top-right">
+    <img src="/assets/image3.png" alt="Image 3" class="image-corner bottom-left">
+    <img src="/assets/image4.png" alt="Image 4" class="image-corner bottom-right">
+
+  <div class="text-overlay">
+    <h1>Seu texto aqui</h1>
+  </div>
   </body>
 </html>
